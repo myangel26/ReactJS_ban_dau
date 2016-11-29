@@ -5,6 +5,12 @@ module.exports={
     'script!foundation-sites/dist/foundation.min.js',
     './app/app.js'
   ],
+  resolve:{
+    root: __dirname,
+    alias: {
+      Main: 'app/components/Main.js'
+    }
+  },
   externals:{
     jquery: 'jQuery'
   },
