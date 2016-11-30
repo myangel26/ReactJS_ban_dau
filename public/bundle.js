@@ -27012,7 +27012,7 @@
 
 
 	// module
-	exports.push([module.id, ".page-title{\n  color: #ddd\n}\n", ""]);
+	exports.push([module.id, ".page-title{\r\n  color: #ddd\r\n}\r\n", ""]);
 
 	// exports
 
